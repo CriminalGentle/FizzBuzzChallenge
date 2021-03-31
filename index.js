@@ -1,6 +1,7 @@
 //FIZZBUZZ CODING CHALLENGE
 
-/*FIZZBUZZ é um desafio onde você conta de 1 a 100, e para cada número que é divisivel por 3, você diz FIZZ, e cada número que é divisivel por 5 dizemos BUZZ. E se um é divisivel por 3 e 5 você diz FIZZBUZZ.*/
+/*FIZZBUZZ é um desafio onde você conta de 1 a 100, e para cada número que é divisivel por 3, você diz FIZZ, e cada número que é divisivel por 5 dizemos BUZZ. 
+E se um é divisivel por 3 e 5 você diz FIZZBUZZ.*/
 
 //for loop
 
