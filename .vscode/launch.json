@@ -1,0 +1,40 @@
+- c_cpp_properties.json
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": ["/usr/include"],
+            "browse" : {
+                "limitSymbolsToIncludedHeaders" : true,
+                "databaseFilename" : ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": ["/usr/include"],
+            "browse" : {
+                "limitSymbolsToIncludedHeaders" : true,
+                "databaseFilename" : ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": ["c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include"],
+            "browse" : {
+                "limitSymbolsToIncludedHeaders" : true,
+                "databaseFilename" : ""
+            }
+        }
+    ]
+}
+- tasks.json
+{
+    "version": "0.1.0",
+    "command": "g++",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "args": ["-g", "main.c"]
+}
+- c program
+#include <stdio.h>
+#include <stdlib.h>
